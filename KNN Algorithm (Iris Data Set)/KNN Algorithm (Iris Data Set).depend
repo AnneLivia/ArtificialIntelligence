@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1550881109 source:c:\users\annel\desktop\knn algorithm (iris data set)\main.cpp
-	<iostream>
-	<vector>
-	<algorithm>
-	<fstream>
-	<cmath>
-
