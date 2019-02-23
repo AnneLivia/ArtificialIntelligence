@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1550956430 source:c:\users\annel\desktop\onemax problem\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<chrono>
+	<thread>
+
