@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589515221 source:c:\users\annel\desktop\knn algorithm (fruit dataset)\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<cmath>
+	<map>
+
