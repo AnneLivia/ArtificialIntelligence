@@ -189,6 +189,9 @@ int main()
     vector<double>auxx = {1.21, 3.00, 5.16, 8.31, 10.21};
     vector<double>auxy = {1.69, 5.89, 4.11, 5.49, 8.65};
 
+    x = auxx;
+    y = auxy;
+
     LinearRegression lr(x, y);
 
     pair<double, double> coefficients = lr.least_square2();
@@ -196,5 +199,22 @@ int main()
     cout << "Y = " << coefficients.first << " * x + " << coefficients.second << endl;
     // cout << "Y(5) = " << coefficients.first * 5 + coefficients.second << endl;
 
+    Mat graph(Size(400, 400), CV_64FC3, Scalar(255,255,255));
+    // y-axis
+    line(graph, Point(200, 0), Point(200, 500), Scalar(255, 0, 0), 2);
+    // x-axis
+    line(graph, Point(0, 200), Point(500, 200), Scalar(255, 0, 0), 2);
+
+    // plotting points
+    for (int i = 0; i < (int)x.size(); i++) {
+        line(graph, Point(x[i] + 200, 200 - y[i]), Point(x[i] + 200, 200 - y[i]), Scalar(0, 255, 0), 4);
+    }
+
+    // draw fit line
+    line(graph, Point(x[0] + 200, 200 - (coefficients.first * x[0] + coefficients.second)),
+                Point(x[(int)x.size() - 1] + 200, 200 - (coefficients.first * x[(int)x.size() - 1] + coefficients.second)), Scalar(0, 0, 255), 2);
+
+    imshow("Graph", graph);
+    waitKey();
     return 0;
 }
