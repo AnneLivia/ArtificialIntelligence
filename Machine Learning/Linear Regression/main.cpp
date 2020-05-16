@@ -98,6 +98,29 @@ public:
         return sum;
     }
 
+    /* correlation:
+        Correlation is a measure of how close the line fits the points
+        the formula to calculate it is:
+        R^2 = (n * sum(x * y) - sum (x) * sum (y)^2
+             ___________________________________
+             (N sum(x^2) - sum(x)^2) * (N * sum(y^2) - sum(y)^2)
+        it varies from -1 to 1
+        measure of the strength of a linear relationship between two quantitative variables
+    */
+    double correlation() {
+        double sumxy = 0.0, sumx = 0.0, sumy = 0.0, sumx2 = 0.0, sumy2 = 0.0;
+        for (int i = 0; i < this->n; i++) {
+            sumxy+=this->x[i] * this->y[i];
+            sumx+=this->x[i];
+            sumy+=this->y[i];
+            sumx2+=pow(this->x[i], 2);
+            sumy2+=pow(this->y[i], 2);
+        }
+
+        return ((pow(this->n * sumxy - sumx * sumy, 2)) /
+                     ((this->n * sumx2 - pow(sumx, 2)) * (this->n * sumy2 - pow(sumy, 2))));
+    }
+
     // calculates mean
     double mean(const vector<double>& variable) {
         int sum = 0.0;
@@ -186,17 +209,21 @@ int main()
     }
 
 
-    vector<double>auxx = {1.21, 3.00, 5.16, 8.31, 10.21};
-    vector<double>auxy = {1.69, 5.89, 4.11, 5.49, 8.65};
+    vector<double>auxx = {43, 21, 25, 42, 57, 59};
+    vector<double>auxy = {99, 65, 79, 75, 87, 81};
+
 
     x = auxx;
     y = auxy;
+
 
     LinearRegression lr(x, y);
 
     pair<double, double> coefficients = lr.least_square2();
 
     cout << "Y = " << coefficients.first << " * x + " << coefficients.second << endl;
+    cout << "R^2 = " << lr.correlation() << endl;
+
     // cout << "Y(5) = " << coefficients.first * 5 + coefficients.second << endl;
 
     Mat graph(Size(400, 400), CV_64FC3, Scalar(255,255,255));
