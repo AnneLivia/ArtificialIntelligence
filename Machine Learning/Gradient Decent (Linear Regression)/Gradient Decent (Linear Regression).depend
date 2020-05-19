@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1589868036 source:c:\users\annel\downloads\programming\artificial intelligence\machine learning\gradient decent (linear regression)\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<sstream>
+	<fstream>
+	<opencv2/opencv.hpp>
+	<algorithm>
+
