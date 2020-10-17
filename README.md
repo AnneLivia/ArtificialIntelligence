@@ -5,7 +5,7 @@
    - [OneMax Problem](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Evolutionary%20Algorithms/OneMax%20Problem)
 ### Machine Learning 
 1. Supervised Learning
-   - Known-Local Means Algorithm - KNN:
+   - K-Nearest Neighbors Algorithm - KNN:
      - [Fruit Classification](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/KNN%20Algorithm%20(Fruit%20dataset))
      - [Iris Plant Classification](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/KNN%20Algorithm%20(Iris%20Data%20Set))
    - Linear Regression
