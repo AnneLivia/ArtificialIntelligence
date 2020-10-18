@@ -5,11 +5,11 @@
 		<node id="1" name="Data Table" position="(240.0, 161.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
 		<node id="2" name="Scatter Plot" position="(323.0, 44.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
 		<node id="3" name="Data Sampler" position="(396.0, 161.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasampler.OWDataSampler" title="Data Sampler" version="" />
-		<node id="4" name="Test and Score" position="(606.0, 87.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" title="Test and Score" version="" />
+		<node id="4" name="Test and Score" position="(623.0, 104.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" title="Test and Score" version="" />
 		<node id="5" name="Data Table" position="(569.0, 225.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (1)" version="" />
 		<node id="6" name="Data Table" position="(494.0, 344.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table (2)" version="" />
-		<node id="7" name="Constant" position="(721.0, 252.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owconstant.OWConstant" title="Constant" version="" />
-		<node id="8" name="kNN" position="(786.0, 100.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" title="kNN (1)" version="" />
+		<node id="7" name="Constant" position="(744.0, 246.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owconstant.OWConstant" title="Constant" version="" />
+		<node id="8" name="kNN" position="(764.0, 81.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owknn.OWKNNLearner" title="kNN (1)" version="" />
 	</nodes>
 	<links>
 		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
@@ -43,7 +43,7 @@ dGFzZXRzL2Jyb3duLXNlbGVjdGVkLnRhYpRoC2gMaA2MEmJyb3duLXNlbGVjdGVkLnRhYpRoD2gQ
 aBFoEGgSTnViaAYpgZR9lChoCYxWQzovVXNlcnMvYW5uZWwvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFt
 cy9PcmFuZ2UvbGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL3pvby50YWKUaAtoDGgN
 jAd6b28udGFilGgPaBBoEWgQaBJOdWJljAtyZWNlbnRfdXJsc5RdlIwTc2F2ZWRXaWRnZXRHZW9t
-ZXRyeZRDQgHZ0MsAAwAAAAABfgAAAFIAAAPXAAACcQAAAX8AAABxAAAD1gAAAnAAAAAAAAAAAAVW
+ZXRyeZRDQgHZ0MsAAwAAAAABfwAAAHEAAAPWAAACcAAAAX8AAABxAAAD1gAAAnAAAAAAAAAAAAVW
 AAABfwAAAHEAAAPWAAACcJSMC3NoZWV0X25hbWVzlH2UjAZzb3VyY2WUSwCMA3VybJRoEIwNZG9t
 YWluX2VkaXRvcpR9lIwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5n
 ZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCXZhcmlhYmxl
