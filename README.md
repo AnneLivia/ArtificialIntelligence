@@ -13,9 +13,9 @@
      - [Univariate linear regression through Gradient Descent Optimization Algorithm](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/Gradient%20Decent%20(Linear%20Regression))
      - [Predicting house prices](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/Predict%20Housing%20Prices)
 ### Data mining
-   - Orange Canvas Software:
-     - [Iris classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/IrisDataSetOrange.ows)
-     - [Titaninc classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/titanicOrange.ows)
+     - Orange Canvas Software:
+        - [Iris classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/IrisDataSetOrange.ows)
+        - [Titaninc classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/titanicOrange.ows)
 ### Software Information
   - C++11
   - OpenCV 4.1.0 Library
