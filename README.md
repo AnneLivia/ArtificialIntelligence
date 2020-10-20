@@ -16,7 +16,7 @@
 1. Orange Canvas Software:
      - Classification problems:
        - [Iris classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/IrisDataSetOrange.ows)
-       - [Titaninc classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/titanicOrange.ows)
+       - [Titanic classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/titanicOrange.ows)
 ### Software Information
   - C++11
   - OpenCV 4.1.0 Library
