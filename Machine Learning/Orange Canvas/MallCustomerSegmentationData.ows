@@ -95,8 +95,8 @@ lGgKfZRoFUsEdWgvfZQoaIVLAmiKSwJogEsCdWgxfZR1YmV1Lg==
 </properties>
 		<properties format="literal" node_id="5">{'auto_commit': True, 'controlAreaVisible': True, 'k': 2, 'k_from': 2, 'k_to': 8, 'max_iterations': 300, 'n_init': 30, 'normalize': True, 'optimize_k': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02=\x00\x00\x00\xc9\x00\x00\x03\xf9\x00\x00\x02\x19\x00\x00\x02=\x00\x00\x00\xc9\x00\x00\x03\xf9\x00\x00\x02\x19\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02=\x00\x00\x00\xc9\x00\x00\x03\xf9\x00\x00\x02\x19', 'selection': 0, 'smart_init': 0, '__version__': 2}</properties>
 		<properties format="pickle" node_id="6">gASVXQ4AAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
-VmlzaWJsZZSJjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAMRAAAA1wAABSQAAALD
-AAADEgAAAPYAAAUjAAACwgAAAAAAAAAABVYAAAMSAAAA9gAABSMAAALClIwJc2VsZWN0aW9ulE6M
+VmlzaWJsZZSJjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAG9AAABDwAAA9AAAAL7
+AAABvgAAAS4AAAPPAAAC+gAAAAAAAAAABVYAAAG+AAABLgAAA88AAAL6lIwJc2VsZWN0aW9ulE6M
 EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
 YV92YWx1ZZRLgIwNY2xhc3NfZGVuc2l0eZSJjAtqaXR0ZXJfc2l6ZZRLAIwTbGFiZWxfb25seV9z
 ZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImMC3BvaW50X3dpZHRolEsKjAlzaG93
