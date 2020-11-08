@@ -663,4 +663,95 @@ import sys
 
 def printDB():
   try:
-    result = theCursor.execute("") # i've stopped here
+    result = theCursor.execute("SELECT * FROM person") # i've stopped here
+    for row in result:
+      print("id: ", row[0])
+      print("name: ", row[1])
+      print("age: ", row[2])
+  except sqlite3.OperationError:
+    print("Table does not exist")
+  except:
+    print("Couldn't get data")
+
+db_connect = sqlite3.connect('teste.db')
+print("Database created")
+# transverse the record of the database
+theCursor = db_connect.cursor()
+
+# create the table
+try:
+  db_connect.execute("DROP TABLE person")
+  db_connect.execute("CREATE TABLE person (id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, name VARCHAR, age INTEGER);")
+  # commit that change
+  db_connect.commit()
+  print("Table created")
+except sqlite3.OperationalError:
+  print("Error creating table")
+
+# add person to the database
+try:
+  db_connect.execute("INSERT INTO person (name, age) VALUES ('livia', 23),"+
+                                                     "('anne', 20), ('anne livia', 23);")
+  # commit that change
+  db_connect.commit()
+  print("data inserted")
+except sqlite3.OperationError:
+  print("Error insert data")
+
+printDB()
+
+# close database
+db_connect.close()
+
+"""Recursive functions (functions that needs itself to solve a problem)
+the process of solve some problem repeats in the same function
+the function can be solved in smaller parts
+example fatorial
+
+
+all files in python are a modules. if i want to create a file with math funtions name mathfunction, I can import this file in another file by using
+import mathfunction, if i want to import only a especific function I can do
+from mathfunction import mult_matrix for example
+"""
+
+def fatorial(num):
+  if num <= 1:
+    return 1
+  else:
+    return num * fatorial(num - 1)
+
+print("Fatorial of 5: ", fatorial(5))
+
+def fibonacci(num):
+  if num <= 2:
+    return 1
+  else:
+    return fibonacci(num - 1) + fibonacci(num - 2)
+
+print("5th number of the fibonacci sequence: ", fibonacci(5)) 
+
+# depth first search
+def dfs(node, visited, graph):
+  if not visited[node]:
+    print("Visiting node ", node)
+    visited[node] = True
+    for i in graph[node]:
+      if not visited[i]:
+        dfs(i, visited, graph)
+    
+graph = [[2, 3],
+         [5, 1, 3],
+         [1, 2],
+         [2, 3],
+         [2],
+         [0]]
+
+visited = list(map(lambda x: False, range(len(graph))))
+
+# could be in this way too using list compression
+# visited = list(False for x in range(len(graph)))
+
+for v in range(len(graph)):
+  if not visited[v]:
+    dfs(v, visited, graph)
+    print(visited)
