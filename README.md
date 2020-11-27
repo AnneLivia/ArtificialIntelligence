@@ -20,7 +20,7 @@
    - Classification problems:
      - [Iris classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/IrisDataSetOrange.ows)
      - [Titanic classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/titanicOrange.ows)
-     - [Breast Cancer (Malignant or Benign classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/breast_cancer_benignORmalignant.ows)
+     - [Breast Cancer (Malignant or Benign classification)](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/breast_cancer_benignORmalignant.ows)
    - Unsupervised Learning Problems:
      - [Mall Customers Segmentation](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/MallCustomerSegmentationData.ows)
    - Others Problems:
