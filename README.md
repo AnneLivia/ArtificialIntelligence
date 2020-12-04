@@ -16,6 +16,8 @@
    - Neural Network
       - [Simple Neural Network with only one Neuron (C++)](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/Simple%20Neural%20Network)
       - [MNIST Handwritten Digit Classification (Python with Tensorflow and Keras)](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/ML%20With%20Python/TensorFlow/MNIST%20Handwritten%20Digit%20Classification)
+     - [Convolutional Neural Network applied to the MNIST dataset (Python with Keras)](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/ML%20With%20Python/Keras/MNIST)
+     - [Convolutional Neural Network applied to the CIFAR10 dataset (Python with Keras)](https://github.com/AnneLivia/ArtificialIntelligence/tree/master/Machine%20Learning/ML%20With%20Python/Keras/CIFAR10)
 #### 2. Data mining and Machine Learning problems using Orange Canvas Software
    - Classification problems:
      - [Iris classification](https://github.com/AnneLivia/ArtificialIntelligence/blob/master/Machine%20Learning/Orange%20Canvas/IrisDataSetOrange.ows)
