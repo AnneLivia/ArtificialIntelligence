@@ -29,5 +29,5 @@
   - C++11
   - OpenCV 4.1.0 Library
   - Orange Canvas
-  - Python, Tensorflow and other libraries
-  
+  - Python
+  - Tensorflow, Keras, Scikit-learn, Numpy, Matplotlib, etc.
