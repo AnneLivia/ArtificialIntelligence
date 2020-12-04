@@ -30,4 +30,4 @@
   - OpenCV 4.1.0 Library
   - Orange Canvas
   - Python
-  - Tensorflow, Keras, Sklearn, Numpy, Matplotlib, etc.
+  - Tensorflow, Keras, Scikit-learn, Numpy, Matplotlib, etc.
