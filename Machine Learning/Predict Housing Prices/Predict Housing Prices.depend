@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1589683866 source:c:\users\annel\desktop\competitive programming\machine learning\predict housing prices\main.cpp
-	<iostream>
-	<vector>
-	<cmath>
-	<sstream>
-	<fstream>
-	<opencv2/opencv.hpp>
-
