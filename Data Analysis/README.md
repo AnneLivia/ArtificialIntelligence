@@ -1,1 +1,0 @@
-Materiais do curso "Python Fundamentos para análise de dados" fornecido pelo Data Science Academy - DSA.
